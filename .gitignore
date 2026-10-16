@@ -1,0 +1,9 @@
+# Compiled binaries
+dental_clinic
+dental_clinic.exe
+*.o
+
+# Local runtime data (may contain private patient information)
+doctors.dat
+appointments.dat
+appointments.tmp

@@ -9,14 +9,7 @@
  * Build:
  *   gcc -std=c11 -Wall -Wextra -pedantic main.c -o dental_clinic
  * Run:
- *   ./dental_clinic        (Linux/macOS)
  *   dental_clinic.exe      (Windows)
- *
- * Note: This module uses a patient ID entered by the user. When integrating
- * with your friend's patient module, replace the patient-ID validation/input
- * with the shared patient module function. Billing can read appointment IDs
- * and details through the documented Appointment record in README.md.
- */
 
 #include <stdio.h>
 #include <stdlib.h>
